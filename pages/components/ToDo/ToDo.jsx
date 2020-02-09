@@ -12,7 +12,7 @@ function ToDo({ text, id }) {
   return (
     <div id={id} className="todo">
       <p>{text}</p>
-      <button type="button" onClick={handleDelete}>X</button>
+      <button className="delete-button" type="button" onClick={handleDelete}>X</button>
     </div>
   );
 }

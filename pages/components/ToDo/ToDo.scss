@@ -1,5 +1,11 @@
 @import '../../global/refs.scss';
 
 .todo {
-  @include flex();
+  @include flex(cc);
+  width: max-content;
+  .delete-button {
+    border: none;
+    background-color: white;
+    height: 20px;
+  }
 }
